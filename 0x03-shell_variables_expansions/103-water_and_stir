@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$((0x$(echo -n "${WATER//ewwatratewa/}" | tr ti.itirtrtr 0123456789) + 0x$(echo -n "${STIR//ti.itirtrtr/}" | tr ti.itirtrtr 0123456789)))" | tr 0123456789ABCDEF shtbeolhc
