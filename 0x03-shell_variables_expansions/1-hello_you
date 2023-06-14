@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello $(084ad272766b)"
+echo "hello $USER"
