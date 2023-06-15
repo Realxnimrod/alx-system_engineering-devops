@@ -1,3 +1,2 @@
 #!/bin/bash
-find . -empty -printf "%P
-"
+find . -type f -iname "*.gif" -exec sh -c echo {} \; | LC_COLLATE=C sort -f
