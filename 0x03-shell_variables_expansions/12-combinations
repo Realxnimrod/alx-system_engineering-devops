@@ -1,2 +1,2 @@
 #!/bin/bash
-for ((i=0; i<26; i++)); do for ((j=0; j<26; j++)); do letter1=$(printf "%c" $((97 + i))); letter2=$(printf "%c" $((97 + j))); if [[ $letter1$letter2 != "oo" ]]; then echo $letter1$letter2; fi; done; done
+echo {a..z}{a..z} | tr -d oo
